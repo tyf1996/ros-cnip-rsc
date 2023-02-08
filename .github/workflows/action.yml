@@ -37,6 +37,6 @@ jobs:
           git config --global user.name tyf1996
           git add .
           git commit -m "action `date`"
-          git push
+          echo "$ACCESS_TOKEN"
         env:
           ACCESS_TOKEN: ${{ secrets.DEPOLY_SECRET }}
