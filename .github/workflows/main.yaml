@@ -1,6 +1,7 @@
 name: update_cnip_everyday
 
 on:
+  push:
   schedule:
   - cron: "0 18 * * *"
   
