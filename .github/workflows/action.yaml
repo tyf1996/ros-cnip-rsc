@@ -3,18 +3,16 @@ name: update_cnip_everyday
 on:
   push:
   schedule:
-  - cron: "0 18 * * *"
+  - cron: '0 18 * * *'
   
 jobs: 
   bot:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout codes'
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v1
       - name: exc cnip.sh
         run: bash cnip.sh
-
       - name: commit
         run: |
           git config --global user.email tyf.liking@gmail.com
