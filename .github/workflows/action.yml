@@ -35,4 +35,8 @@ jobs:
         run: |
           git add .
           git commit -m "action `date`"
-          git push https://tyf1996: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@github.com/tyf1996/ros-cnip-rsc.git
+          remote_addr=`git remote get-url --push origin`
+          remote_addr=`echo $remote_addr|  awk -F'://' '{print $2}'`
+          remote_addr=https://tyf1996:${{ secrets.GITHUB_TOKEN }}@${remote_addr}
+          git remote add origin ${remote_addr}
+          git push origin HEAD:gh-pages --force
