@@ -37,6 +37,6 @@ jobs:
           git add .
           git commit -m "action `date`"
       - name: push
-        uses: tyf1996/ros-cnip-rsc@main
+        uses: tyf1996/ros-cnip-rsc/.github/workflows@main
         with:
           github_token: ${{secrets.DEPLOY_SECRET}}
