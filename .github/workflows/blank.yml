@@ -37,5 +37,3 @@ jobs:
           git commit -m "action:`date`"
       - name: push
         uses: tyf1996/ros-cnip-rsc@main
-        with:
-          github_token: ${{secrets.GITHUB_TOKEN}}
