@@ -40,4 +40,4 @@ jobs:
           remote_addr=`git remote get-url --push origin`
           remote_addr=`echo $remote_addr|  awk -F'://' '{print $2}'`
           remote_addr=https://${{ secrets.GITHUB_TOKEN }}@${remote_addr}
-          git push $(remote_addr) 
+          git push ${remote_addr}
