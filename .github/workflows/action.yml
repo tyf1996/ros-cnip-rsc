@@ -37,7 +37,8 @@ jobs:
           git config --global user.name tyf1996
           git add .
           git commit -m "action `date`"
+          git pull --rebase
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.ACCESS_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
