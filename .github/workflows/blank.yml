@@ -36,4 +36,7 @@ jobs:
           git config --global user.name tyf1996
           git add .
           git commit -m "action `date`"
-          git push
+      - name: push
+        uses: tyf1996/ros-cnip-rsc@main
+        with:
+          github_token: ${{secrets.DEPLOY_SECRET}}
