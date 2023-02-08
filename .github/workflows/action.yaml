@@ -9,7 +9,8 @@ jobs:
   bot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: 'Checkout codes'
+        uses: actions/checkout@v1
 
       - name: exc cnip.sh
         run: bash cnip.sh
