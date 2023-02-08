@@ -37,4 +37,4 @@ jobs:
           git config --global user.name tyf1996
           git add .
           git commit -m "action `date`"
-          git push https://${{ secrets.DEPOLY_SECRET }}@github.com/tyf1996/ros-cnip-rsc.git
+          git push https://${{ secrets.ACCESS_KEY }}@github.com/tyf1996/ros-cnip-rsc.git
