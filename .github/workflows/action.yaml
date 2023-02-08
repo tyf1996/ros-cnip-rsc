@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout codes'
-        uses: google-github-actions/setup-gcloud@v0
+        uses: actions/checkout@v1
       - name: exc cnip.sh
         run: bash cnip.sh
       - name: commit
