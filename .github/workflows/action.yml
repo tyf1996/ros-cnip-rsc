@@ -38,4 +38,4 @@ jobs:
           git commit -m "action `date`"
           git push
         env:
-          github_token: ${{secret.DEPLOY_SECRET}}
+          github_token: ${{secrets.DEPLOY_SECRET}}
