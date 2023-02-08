@@ -39,5 +39,5 @@ jobs:
           git commit -m "action `date`"
           remote_addr=`git remote get-url --push origin`
           remote_addr=`echo $remote_addr|  awk -F'://' '{print $2}'`
-          remote_addr=https://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@github.com/tyf1996/ros-cnip-rsc.git
-          git push https://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@github.com/tyf1996/ros-cnip-rsc.git
+          remote_addr=https://${{ secrets.ACCESS_KEY }}@github.com/tyf1996/ros-cnip-rsc.git
+          git push ${remote_addr}
