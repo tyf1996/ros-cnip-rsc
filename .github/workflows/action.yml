@@ -24,8 +24,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-        with:
-          github_token: ${{secret.DEPLOY_SECRET}}
 
       # Runs a single command using the runners shell
       - name: Run a cnip.sh script
@@ -39,3 +37,5 @@ jobs:
           git add .
           git commit -m "action `date`"
           git push
+        env:
+          github_token: ${{secret.DEPLOY_SECRET}}
