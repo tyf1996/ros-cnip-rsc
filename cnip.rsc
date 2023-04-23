@@ -5103,6 +5103,7 @@ add address=103.246.156.0/22 disabled=no list=CN
 add address=103.247.168.0/22 disabled=no list=CN
 add address=103.247.172.0/22 disabled=no list=CN
 add address=103.247.176.0/22 disabled=no list=CN
+add address=103.247.191.0/24 disabled=no list=CN
 add address=103.247.200.0/22 disabled=no list=CN
 add address=103.247.212.0/22 disabled=no list=CN
 add address=103.248.0.0/23 disabled=no list=CN
