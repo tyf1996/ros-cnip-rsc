@@ -3373,7 +3373,6 @@ add address=103.92.252.0/22 disabled=no list=CN
 add address=103.93.0.0/22 disabled=no list=CN
 add address=103.93.4.0/22 disabled=no list=CN
 add address=103.93.28.0/22 disabled=no list=CN
-add address=103.93.76.0/22 disabled=no list=CN
 add address=103.93.84.0/22 disabled=no list=CN
 add address=103.93.142.0/23 disabled=no list=CN
 add address=103.93.152.0/22 disabled=no list=CN
@@ -3817,6 +3816,7 @@ add address=103.133.176.0/22 disabled=no list=CN
 add address=103.133.232.0/22 disabled=no list=CN
 add address=103.134.12.0/24 disabled=no list=CN
 add address=103.134.196.0/22 disabled=no list=CN
+add address=103.134.232.0/23 disabled=no list=CN
 add address=103.135.80.0/22 disabled=no list=CN
 add address=103.135.124.0/22 disabled=no list=CN
 add address=103.135.148.0/22 disabled=no list=CN
@@ -4096,6 +4096,7 @@ add address=103.166.242.0/23 disabled=no list=CN
 add address=103.166.246.0/23 disabled=no list=CN
 add address=103.167.0.0/23 disabled=no list=CN
 add address=103.167.36.0/23 disabled=no list=CN
+add address=103.167.100.0/23 disabled=no list=CN
 add address=103.168.98.0/23 disabled=no list=CN
 add address=103.168.170.0/23 disabled=no list=CN
 add address=103.169.50.0/23 disabled=no list=CN
@@ -4225,6 +4226,7 @@ add address=103.196.92.0/22 disabled=no list=CN
 add address=103.196.96.0/22 disabled=no list=CN
 add address=103.196.168.0/22 disabled=no list=CN
 add address=103.196.204.0/22 disabled=no list=CN
+add address=103.197.0.0/22 disabled=no list=CN
 add address=103.197.180.0/22 disabled=no list=CN
 add address=103.197.228.0/22 disabled=no list=CN
 add address=103.198.20.0/22 disabled=no list=CN
@@ -5944,7 +5946,6 @@ add address=123.242.192.0/22 disabled=no list=CN
 add address=123.242.196.0/22 disabled=no list=CN
 add address=123.244.0.0/14 disabled=no list=CN
 add address=123.249.0.0/16 disabled=no list=CN
-add address=123.253.108.0/22 disabled=no list=CN
 add address=123.253.240.0/22 disabled=no list=CN
 add address=123.254.96.0/22 disabled=no list=CN
 add address=123.254.100.0/22 disabled=no list=CN
