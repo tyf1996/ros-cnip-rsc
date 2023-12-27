@@ -1,0 +1,4 @@
+## 简介
+这是一个定期更新中国ip的workflow项目，用于自动生成适用于router os导入的脚本
+结合ros的script和scheduler功能来定期更新ros中的cnip地址列表
+最终用于基于ip的分流功能
