@@ -768,7 +768,6 @@ add address=43.242.12.0/22 disabled=no list=CN
 add address=43.242.16.0/21 disabled=no list=CN
 add address=43.242.24.0/22 disabled=no list=CN
 add address=43.242.28.0/22 disabled=no list=CN
-add address=43.242.44.0/22 disabled=no list=CN
 add address=43.242.48.0/22 disabled=no list=CN
 add address=43.242.52.0/22 disabled=no list=CN
 add address=43.242.56.0/22 disabled=no list=CN
@@ -2465,7 +2464,6 @@ add address=103.37.188.0/22 disabled=no list=CN
 add address=103.37.208.0/22 disabled=no list=CN
 add address=103.37.212.0/22 disabled=no list=CN
 add address=103.37.216.0/21 disabled=no list=CN
-add address=103.37.248.0/22 disabled=no list=CN
 add address=103.37.252.0/22 disabled=no list=CN
 add address=103.38.0.0/22 disabled=no list=CN
 add address=103.38.32.0/22 disabled=no list=CN
@@ -6242,9 +6240,12 @@ add address=159.27.0.0/16 disabled=no list=CN
 add address=159.75.0.0/16 disabled=no list=CN
 add address=159.226.0.0/16 disabled=no list=CN
 add address=160.19.76.0/23 disabled=no list=CN
+add address=160.19.82.0/23 disabled=no list=CN
 add address=160.19.208.0/22 disabled=no list=CN
 add address=160.19.212.0/22 disabled=no list=CN
 add address=160.19.216.0/22 disabled=no list=CN
+add address=160.20.16.0/23 disabled=no list=CN
+add address=160.20.18.0/23 disabled=no list=CN
 add address=160.20.48.0/22 disabled=no list=CN
 add address=160.202.60.0/22 disabled=no list=CN
 add address=160.202.148.0/22 disabled=no list=CN
