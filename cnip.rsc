@@ -3643,7 +3643,6 @@ add address=103.115.148.0/22 disabled=no list=CN
 add address=103.115.248.0/22 disabled=no list=CN
 add address=103.116.40.0/22 disabled=no list=CN
 add address=103.116.64.0/22 disabled=no list=CN
-add address=103.116.72.0/22 disabled=no list=CN
 add address=103.116.76.0/22 disabled=no list=CN
 add address=103.116.92.0/22 disabled=no list=CN
 add address=103.116.120.0/22 disabled=no list=CN
@@ -3891,7 +3890,6 @@ add address=103.149.220.0/23 disabled=no list=CN
 add address=103.149.242.0/23 disabled=no list=CN
 add address=103.149.244.0/23 disabled=no list=CN
 add address=103.149.246.0/23 disabled=no list=CN
-add address=103.149.248.0/23 disabled=no list=CN
 add address=103.150.10.0/23 disabled=no list=CN
 add address=103.150.24.0/23 disabled=no list=CN
 add address=103.150.66.0/23 disabled=no list=CN
@@ -6347,6 +6345,8 @@ add address=165.101.4.0/23 disabled=no list=CN
 add address=165.101.66.0/23 disabled=no list=CN
 add address=165.101.70.0/23 disabled=no list=CN
 add address=165.101.122.0/23 disabled=no list=CN
+add address=165.101.144.0/23 disabled=no list=CN
+add address=165.101.170.0/23 disabled=no list=CN
 add address=166.111.0.0/16 disabled=no list=CN
 add address=167.139.0.0/16 disabled=no list=CN
 add address=167.189.0.0/16 disabled=no list=CN
